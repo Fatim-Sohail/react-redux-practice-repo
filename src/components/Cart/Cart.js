@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import { useSelector } from 'react-redux'
 import Product from '../Product'
+import { Link } from 'react-router-dom'; 
 
 function Cart() {
     const Items = useSelector((state) => state.ProductReducer.cartItems)
